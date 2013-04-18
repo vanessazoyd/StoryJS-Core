@@ -2,15 +2,15 @@
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
-		lang: "en",
+		lang: "hr",
 		api: {
-			wikipedia: "en"
+			wikipedia: "hr"
 		},
 		date: {
-			month: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-			month_abbr: ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."],
-			day: ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-			day_abbr: ["Sun.","Mon.", "Tues.", "Wed.", "Thurs.", "Fri.", "Sat."]
+			month: ["Sije&#269;anj", "Velja&#269;a", "O&#382;ujak", "Travanj", "Svibanj", "Lipanj", "Srpanj", "Kolovoz", "Rujan", "Listopad", "Studeni", "Prosinac"],
+			month_abbr: ["Sij.", "Velj.", "O&#382;u.", "Tra.", "Svi.", "Lip.", "Srp.", "Kol.", "Ruj.", "Lis.", "Stu.", "Pro."],
+			day: ["Nedjelja","Ponedjeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota"],
+			day_abbr: ["Ned.","Pon.", "Uto.", "Sri.", "&#268;et.", "Pet.", "Sub."]
 		}, 
 		dateformats: {
 			year: "yyyy",
